@@ -1,0 +1,4 @@
+"All sandbox security limits are centralized in SandboxPolicy. Execution has default and maximum time, memory and CPU limits, 
+plus a PID limit and output cap. The container root filesystem is read-only, with a dedicated workspace for outputs. 
+Networking is completely disabled. Code runs as an unprivileged user, with all Linux capabilities dropped and no-new-privileges 
+enabled. We also perform a static denylist check for obviously dangerous patterns before execution. The denylist is defense-in
