@@ -1,4 +1,4 @@
-# Member 4 — Sandbox & Security
+# Sandbox & Security
 
 This is a working Phase-1 implementation of your role: a hardened Docker
 sandbox for executing untrusted, AI-generated Python, plus the contract
